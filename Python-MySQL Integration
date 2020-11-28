@@ -14,8 +14,8 @@ cnx = pymysql.connect(user=db['user'],
                       port = int(db['port']), 
                       database=db['database'])
 '''
-cnx = pymysql.connect(user='munisifb', 
-                      password='Sce1927351!!',
+cnx = pymysql.connect(user='Username', 
+                      password='Password!!',
                       host='localhost',
                       # port needed only if it is not the default number, 3306.
                       port = 3306, 
